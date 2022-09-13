@@ -13,7 +13,7 @@ class _Screen_oneState extends State<Screen_one> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
+        appBar: AppBar(leading: Icon(Icons.traffic,size: 40),
           title: const Text('First Route'),
         ),
         body: Container(alignment: Alignment.center,

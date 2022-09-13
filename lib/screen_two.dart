@@ -13,7 +13,7 @@ class _Screen_TowState extends State<Screen_Tow> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
+        appBar: AppBar(leading: Icon(Icons.traffic,size: 40),
           title: const Text('Seconed Route'),
         ),
         body: Container(alignment: Alignment.center,
